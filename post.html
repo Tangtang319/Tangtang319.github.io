@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文章 · 偷得浮生半日闲</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+  <script>
+    (function() {
+      const theme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body data-page="post">
+
+  <div class="reading-progress" id="reading-progress"></div>
+
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="site-logo">偷得浮生<span>半日闲</span></a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="tags.html">标签</a></li>
+          <li><a href="about.html">关于</a></li>
+          <li><a href="feed.xml">RSS</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" title="切换深色模式">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div id="post-container"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 我的个人博客 · 记录一些技术思考与生活随笔</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="js/posts-index.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

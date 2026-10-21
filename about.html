@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于 · 偷得浮生半日闲</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    (function() {
+      const theme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body data-page="about">
+
+  <div class="reading-progress" id="reading-progress"></div>
+
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="site-logo">偷得浮生<span>半日闲</span></a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="index.html">首页</a></li>
+          <li><a href="tags.html">标签</a></li>
+          <li><a href="about.html" class="active">关于</a></li>
+          <li><a href="feed.xml">RSS</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" title="切换深色模式">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="about-page">
+      <div class="about-avatar">😋</div>
+      <h1>关于我</h1>
+      <p>你好呀，欢迎来到我的个人博客。每一次访问都是对我的创作最好的鼓励。</p>
+      <p>你可以叫我李团长。坐标山东济南，ENFJ，对一切事物怀揣着原始的热忱与希望。</p>
+      <p>白天上课，晚上打游戏、聊天，我每天的生活热闹而平凡。这个博客是我的数字自留地，用来记录一些技术思考与生活随笔。</p>
+      <p>写这个博客的目的，只是想在喧闹的互联网上，留一块安静的地方。如果你恰好路过，欢迎坐下来喝杯茶。</p>
+      <div class="about-links">
+        <a href="feed.xml">📡 RSS 订阅</a>
+        <a href="index.html">🏠 回到首页</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 我的个人博客 · 记录一些技术思考与生活随笔</p>
+  </footer>
+
+</body>
+</html>

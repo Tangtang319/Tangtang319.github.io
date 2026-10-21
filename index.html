@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>偷得浮生半日闲 · 李团长的个人博客</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
+  <script>
+    (function() {
+      const theme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body data-page="home">
+
+  <div class="reading-progress" id="reading-progress"></div>
+
+  <header class="site-header">
+    <nav class="nav-container">
+      <a href="index.html" class="site-logo">偷得浮生<span>半日闲</span></a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">首页</a></li>
+          <li><a href="tags.html">标签</a></li>
+          <li><a href="about.html">关于</a></li>
+          <li><a href="feed.xml">RSS</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" title="切换深色模式">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-deco">🍂</div>
+      <h1>自秋天而始的一段路程</h1>
+      <p>在秋日的山大，读书、写作、成长</p>
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="搜索文章…">
+      </div>
+    </section>
+
+    <div class="tag-filter" id="tag-filter"></div>
+
+    <section class="post-list" id="post-list"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 我的个人博客 · 记录一些技术思考与生活随笔</p>
+    <p style="margin-top:6px;"><a href="feed.xml">RSS 订阅</a></p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="js/posts-index.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

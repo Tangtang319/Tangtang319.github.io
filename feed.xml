@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>偷得浮生半日闲</title>
+    <link>https://tangtang319.github.io/blog/</link>
+    <description>在秋日的山大，读书、写作、成长 —— 李团长的个人博客</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 21 Oct 2026 20:00:00 +0800</lastBuildDate>
+
+    <item>
+      <title>云诺千山</title>
+      <link>https://tangtang319.github.io/blog/post.html?id=ynqs</link>
+      <pubDate>Sun, 12 Oct 2026 00:00:00 +0800</pubDate>
+      <description>汇点滴心念，化云神，调风雨，济人间。</description>
+      <category>生活</category>
+      <category>随笔</category>
+    </item>
+
+    <item>
+      <title>未完待续</title>
+      <link>https://tangtang319.github.io/blog/post.html?id=beyond-code</link>
+      <pubDate>Sun, 05 Oct 2026 00:00:00 +0800</pubDate>
+      <description>请输入文本</description>
+      <category>技术</category>
+      <category>思考</category>
+    </item>
+
+    <item>
+      <title>未完待续</title>
+      <link>https://tangtang319.github.io/blog/post.html?id=pour-over-time</link>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0800</pubDate>
+      <description>请输入文本</description>
+      <category>生活</category>
+      <category>美学</category>
+    </item>
+
+    <item>
+      <title>给三年后的自己</title>
+      <link>https://tangtang319.github.io/blog/post.html?id=letter-to-future</link>
+      <pubDate>Sat, 20 Sep 2026 00:00:00 +0800</pubDate>
+      <description>请输入文本</description>
+      <category>成长</category>
+      <category>随笔</category>
+    </item>
+
+    <item>
+      <title>夜里读诗的人</title>
+      <link>https://tangtang319.github.io/blog/post.html?id=night-reader</link>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0800</pubDate>
+      <description>请输入文本</description>
+      <category>阅读</category>
+      <category>随笔</category>
+    </item>
+
+  </channel>
+</rss>
